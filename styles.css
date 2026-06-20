@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef5f7;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.encabezado {
+    background-color: #006b7a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #cccccc;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 15px;
+}
+
+input, select {
+    flex: 1;
+    min-width: 200px;
+}
+
+button {
+    background-color: #006b7a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #004f59;
+}
+
+#results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.producto {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.producto h3 {
+    margin-top: 0;
+    color: #006b7a;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+.descuento {
+    color: #b30000;
+    font-weight: bold;
+}
+
+#notificacion-promocion {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.notificacion-activa {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.panel-carrito ul {
+    padding-left: 20px;
+}
+
+#total-carrito {
+    font-weight: bold;
+    color: #006b7a;
+}
+

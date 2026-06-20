@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda de Comercio Electrónico</title>
+    
+</head>
+<body>
+
+    <header class="encabezado">
+        <h1>Tienda Digital Express</h1>
+        <p>Busca productos, revisa promociones y agrega artículos al carrito.</p>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="panel-busqueda">
+            <h2>Búsqueda y filtrado de productos</h2>
+
+            <div class="search-container">
+                <input type="text" id="product-search" placeholder="Buscar producto">
+                
+                <select id="category-filter">
+                    <option value="todos">Todas las categorías</option>
+                    <option value="tecnologia">Tecnología</option>
+                    <option value="hogar">Hogar</option>
+                    <option value="accesorios">Accesorios</option>
+                </select>
+
+                <button id="btn-buscar">Buscar</button>
+            </div>
+        </section>
+
+        <section class="panel-promocion">
+            <h2>Promociones</h2>
+            <button id="btn-promocion">Ver promoción disponible</button>
+            <p id="notificacion-promocion"></p>
+        </section>
+
+        <section>
+            <h2>Resultados de productos</h2>
+            <div id="results-container">
+                <!-- Los resultados de búsqueda se mostrarán aquí -->
+            </div>
+        </section>
+
+        <section class="panel-carrito">
+            <h2>Carrito de compras</h2>
+            <p id="estado-carrito">El carrito está vacío.</p>
+            <ul id="lista-carrito"></ul>
+            <p id="total-carrito">Total: $0</p>
+        </section>
+
+        <section class="panel-pedido">
+            <h2>Seguimiento de pedido</h2>
+            <button id="btn-seguimiento">Consultar estado del pedido</button>
+            <p id="estado-pedido">No existen pedidos consultados.</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
